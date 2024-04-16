@@ -12,15 +12,15 @@ def admin_login():
     dob = input("Enter your date of birth (YYYY-MM-DD): ")
     address = input("Enter your address: ")
 
+    # return True ### Only valid for demonstration proposes
+
 if __name__ == "__main__":
     main()
 
 
-    
-    # return True ### Only valid for demonstration proposes
 
 # I can customize the admin login to the system, add job title for example 
-# and does the user have the necessary credentials to log in as
+# and does the user have the necessary credentials to log in as adminstrator
    
     
     
