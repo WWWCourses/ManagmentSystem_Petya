@@ -10,9 +10,9 @@ def main():
 
 def admin_login():
     print("Administrator Login")
-    name = input("Enter your name: ") ### adding a dictionary with keys for first name, last name, last name
+    name = input("Enter your name: ") ### adding a dict with keys for first name, last name, last name
     dob = input("Enter your date of birth (YYYY-MM-DD): ") 
-    address = input("Enter your address: ") ### add dict for city, str., nomber, ZIP code
+    address = input("Enter your address: ") ### adding a dict for city, str., nomber, ZIP code
 
     # return True ### Only valid for demonstration proposes
 
