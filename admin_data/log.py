@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
 # I can customize the admin login to the system, add job title for example 
 # for date of birth I can adding a button with a drop-down menu to select date, month, year
-# and does the user have the necessary credentials to log in as adminstrator
+# does the user have the necessary credentials to log in as adminstrator?- how to make it?
    
     
     
