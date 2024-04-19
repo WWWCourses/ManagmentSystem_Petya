@@ -33,3 +33,9 @@ def view_user_data():
 def save_records():
     # You can implement the saving mechanism here, such as saving to a file/database
     print("Records saved successfully!")
+
+
+# if __name__=='__main__':
+#     main()
+
+
