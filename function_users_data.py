@@ -115,34 +115,34 @@ def save_user_database():
 
 # Main program loop
 
-while True:
-    print("\nWould you like to:")
-    print("1 - See Current Users")
-    print("2 - Add User")
-    print("3 - Delete User")
-    print("4 - Show a User")
-    print("5 - Save Database")
-    print("6 - More Options")  # Placeholder for additional options
-    print("7 - Quit")
-    choice = input("Enter your choice: ")
+# while True:
+#     print("\nWould you like to:")
+#     print("1 - See Current Users")
+#     print("2 - Add User")
+#     print("3 - Delete User")
+#     print("4 - Show a User")
+#     print("5 - Save Database")
+#     print("6 - More Options")  # Placeholder for additional options
+#     print("7 - Quit")
+#     choice = input("Enter your choice: ")
 
-    if choice == "1":
-        see_current_users()
-    elif choice == '2':
-        add_user()
-    elif choice == '3':
-        delete_user()
-    elif choice == '4':
-        show_user_data()
-    elif choice == '5':
-        save_user_database()
-    elif choice == '6':
-        print("Additional options will be added here.")
-    elif choice == '7':
-        print("Goodbye!")
-        break
-    else:
-        print("Invalid choice. Please try again.")
+#     if choice == "1":
+#         see_current_users()
+#     elif choice == '2':
+#         add_user()
+#     elif choice == '3':
+#         delete_user()
+#     elif choice == '4':
+#         show_user_data()
+#     elif choice == '5':
+#         save_user_database()
+#     elif choice == '6':
+#         print("Additional options will be added here.")
+#     elif choice == '7':
+#         print("Goodbye!")
+#         break
+#     else:
+#         print("Invalid choice. Please try again.")
 
 
 
