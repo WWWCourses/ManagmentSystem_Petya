@@ -38,7 +38,7 @@ def main():
 
 admin_users = {}
 
-# Function to register a new user
+# Function to register a new admin_user
 
 def register():
     print("Welcome to the registration process.")
@@ -51,7 +51,8 @@ def register():
     pin_code = input("Create a pin code: ")
     username = input("Create a username: ")
     
-    # Store the user information in the dictionary
+    # Store the admin_user information in the dictionary
+
     admin_users[username] = {
         'name': name,
         'surname': surname,
@@ -71,7 +72,7 @@ def admin_login():
     username = input("Enter your username: ")
     pin_code = input("Enter your pin code: ")
     
-    # Check if the username exists and if the pin code is correct
+    # Check if the admi_username exists and if the pin code is correct
 
     if username in admin_users and admin_users[username]['pin_code'] == pin_code:
         print("Hello! Welcome to the management system!")
