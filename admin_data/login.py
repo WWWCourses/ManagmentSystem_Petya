@@ -36,7 +36,7 @@ def main():
 
    # Define a dictionary to store admin information
 
-users = {}
+admin_users = {}
 
 # Function to register a new user
 
@@ -52,7 +52,7 @@ def register():
     username = input("Create a username: ")
     
     # Store the user information in the dictionary
-    users[username] = {
+    admin_users[username] = {
         'name': name,
         'surname': surname,
         'dob': dob,
@@ -73,7 +73,7 @@ def admin_login():
     
     # Check if the username exists and if the pin code is correct
 
-    if username in users and users[username]['pin_code'] == pin_code:
+    if username in admin_users and admin_users[username]['pin_code'] == pin_code:
         print("Hello! Welcome to the management system!")
     else:
         print("Invalid username or pin code. Please try again.")
