@@ -1,8 +1,7 @@
-
 # Importing functions from admin_login.py and function_user_data.py
 
 # from admin_data import register
-from admin_data import admin_login
+from admin_login import admin_login
 from function_users_data import see_current_users
 from function_users_data import add_user
 from function_users_data import delete_user
@@ -19,10 +18,9 @@ def main():
         if not logged_in:
             continue
 
-    print("Administrator logged in successfully!")
     
     while True:
-        print("\nWould you like to:")
+        print("\nWould you like to__")
         print("1 - See Current Users")
         print("2 - Add User")
         print("3 - Delete User")
@@ -43,12 +41,12 @@ def main():
         elif choice == '5':
             save_user_database()
         elif choice == '6':
-            print("Additional options will be added here.")
+            print("More Options")
         elif choice == '7':
-            print("Goodbye!")
-        break
-    else:
-        print("Invalid choice. Please try again.")
+            print("Quit")
+        else:
+            print('Invalid choise.Try agen!')
+    
 
 if __name__ == "__main__":
     main()
