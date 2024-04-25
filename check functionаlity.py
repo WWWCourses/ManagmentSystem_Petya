@@ -10,7 +10,7 @@ def get_user_by_name(name, users_db):
 
 def main():
     users_db = get_user_db()
-    svetlin_user = get_user_by_name('Svetlin', users_db)
+    # svetlin_user = get_user_by_name('Svetlin', users_db)
 
     print(users_db)
 
