@@ -1,19 +1,11 @@
 # Define a list of dictionary to store user information
 
-# import db
-
 users = {}
-
-# Function to get users from db
-
-# def get_users():
-#     return db.users_db
 
 # Function to see current users
 
 def see_current_users():
     print("Current Users:")
-    # users = get_users()
     for username in users:
         print(username)
 
