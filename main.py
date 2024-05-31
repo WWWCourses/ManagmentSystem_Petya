@@ -13,11 +13,16 @@ from function_users_data import save_user_database
 # Main program loop
 
 def main():
-    logged_in = False
-    while not logged_in:
-        logged_in = admin_login()  # Call the login function from admin_login.py
-        if not logged_in:
-            continue
+    # logged_in = False
+    # while not logged_in:
+    #     logged_in = admin_login()  # Call the login function from admin_login.py
+    #     if not logged_in:
+    #         continue
+
+    while True:
+        if admin_login():
+            break
+
 
     
     while True:

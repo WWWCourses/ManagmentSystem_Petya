@@ -31,4 +31,17 @@ users_db = [
     }
 ]
 
+def get_user_by_key(key, value):
+    filtered_user = [user for user in users_db if user[key] == value]
+    if filtered_user:
+        return filtered_user[0]
+    else:
+        print(f'No user with {key}={value}')
+
+
+if __name__=="__main__":
+    username = input("Enter username of the user to view data: ")
+    user = get_user_by_key(key='username', value=username)
+    print(user)
+
 

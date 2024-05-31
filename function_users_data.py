@@ -1,5 +1,7 @@
-# Define a list of dictionary to store user information
+import db
 
+
+# Define a list of dictionary to store user information
 users = {}
 
 # Function to see current users
@@ -49,8 +51,9 @@ def delete_user():
 
 def show_user_data():
     username = input("Enter username of the user to view data: ")
-    if username in users:
-        user = users[username]
+    user = db.get_user_by_key(key='username', value=username)
+
+    if user:        
         print(f"Name: {user['name']}")
         print(f"Surname: {user['surname']}")
         print(f"Date of Birth: {user['date_of_birth']}")
