@@ -9,7 +9,7 @@ users_db = [
         'pin_code' : '0001',
         'username' : 'ss'
     },
-    {   
+    {
         'name': 'Mariya',
         'surname': 'Mersinkova',
         'date_of_birth' : '15/9/1970',
@@ -18,8 +18,8 @@ users_db = [
         'address_number' : 35,
         'pin_code' : '0002',
         'username' : 'mm'
-    },      
-    {   
+    },
+    {
         'name': 'Pavel',
         'surname': 'Zlatanov',
         'date_of_birth' : '20/5/1993',
