@@ -1,3 +1,2 @@
-NEW PROJECT
+# User Account Management System
 
-User Account Management System
